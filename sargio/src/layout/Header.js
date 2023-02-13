@@ -49,18 +49,18 @@ const Header = ({ blog }) => {
           <a href="#">
             <i className="fab fa-facebook-f" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <i className="fab fa-twitter" />
           </a>
           <a href="#">
             <i className="fab fa-instagram" />
-          </a>
+          </a> 13.02.2023 */}
           <a href="#">
             <i className="fab fa-linkedin-in" />
           </a>
-          <a href="#">
+          {/* <a href="#">
             <i className="fab fa-pinterest" />
-          </a>
+          </a> commented of 13.02.2023 */}
         </div>
       </header>
     </Fragment>
@@ -95,12 +95,12 @@ const MenuWithOutBlog = () => {
           <span>Portfolio</span>
         </a>
       </li>
-      <li data-menuanchor="blog" className="blog">
+      {/* <li data-menuanchor="blog" className="blog">
         <a className="nav-link" href="#blog">
           <i className="ti-layout-media-overlay-alt-2" />
           <span>Blogs</span>
         </a>
-      </li>
+      </li>  commented of 13.02.2023 */}
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contactus">
           <i className="ti-map-alt" />
@@ -153,14 +153,14 @@ const MenuWithBlog = () => {
             </a>
           </Link>
         </li>
-        <li data-menuanchor="blog" className="blog active">
+        {/* <li data-menuanchor="blog" className="blog active">
           <Link href="/#blog">
             <a className="nav-link">
               <i className="ti-layout-media-overlay-alt-2" />
               <span>Blogs</span>
             </a>
           </Link>
-        </li>
+        </li> commented of 13.02.2023 */}
         <li data-menuanchor="contactus">
           <Link href="/#contactus">
             <a className="nav-link">

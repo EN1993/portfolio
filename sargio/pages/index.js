@@ -58,7 +58,7 @@ const Index = () => {
       <Portfolio />
       {/* End Portfolio */}
       {/* Blog */}
-      <Blog />
+      {/* <Blog /> commente of 13.02.23*/}
       {/* End Blog */}
       {/* Contact us */}
       <Contact />
