@@ -49,7 +49,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 /* image popup */
 img.mfp-img {
   box-shadow: 0 0 8px rgb(0 0 0 / 60%);
@@ -128,4 +127,8 @@ iframe {
 .header-left .hl-top .img {
   width: 100px;
   height: 100px;
+}
+
+.home-banner .hb-img img {
+  border-radius: 50%;
 }

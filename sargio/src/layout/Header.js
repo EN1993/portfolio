@@ -40,7 +40,8 @@ const Header = ({ blog }) => {
               <div className="img">
                 <img src="static/img/about-me.jpg" title="" alt="" />
               </div>
-              <h5>Sergiobi</h5>
+              <h5>Eric</h5>
+              <h5>Nduwimana</h5>
             </div>
           </div>
           {blog ? <MenuWithBlog /> : <MenuWithOutBlog />}

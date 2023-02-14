@@ -21,15 +21,23 @@ const Index = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
                 <div className="type-box">
-                  <h6>Hello, I am</h6>
-                  <h1 className="font-alt">Sergio Gadot</h1>
+                  {/* <h6>Hello, I am</h6>  commented of 14.02.2023  */}
+                  <h6>Hei, jeg er</h6>
+                  {/* <h1 className="font-alt">Sergio Gadot</h1>  commented of 14.02.2023  */}
+                  <h1 className="font-alt">Eric Nduwimana</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                    {/* I Am Passionate <TypingAnimation />  commented of 14.02.2023 */}
+                    Jeg er lidenskapelig <TypingAnimation />
                   </p>
                   <p className="desc">
-                    I design and develop services for customers of all sizes,
+                    {/* I design and develop services for customers of all sizes,
                     specializing in creating stylish, modern websites, web
-                    services and online stores.
+                    services and online stores. */}
+                    Jeg er en aktiv og engasjert mann på 29 år som har nylig
+                    utdannet seg som front-end utvikler på Noroff fagskole. Jeg
+                    brenner for nye IT løsninger og digitalisering, og er på
+                    stadig jakt etter å utvikle kompetansen min som front-end
+                    utvikler.
                   </p>
                   <div className="btn-bar">
                     <a className="px-btn px-btn-theme" href="#">

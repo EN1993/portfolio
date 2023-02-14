@@ -23,10 +23,12 @@ const IndexParticles = () => {
             <div className="row full-screen align-items-center">
               <div className="col-lg-6">
                 <div className="type-box">
-                  <h6>Hello, I am</h6>
-                  <h1 className="font-alt">Sergio Gadot</h1>
+                  {/* <h6>Hello, I am</h6>Hei, jeg er */}
+                  <h6>Hei, jeg er</h6>
+                  <h1 className="font-alt">Eric Nduwimana</h1>
                   <p className="lead">
-                    I Am Passionate <span id="type-it" />
+                    {/* I Am Passionate <span id="type-it" />  commented of 14.02.2023 */}
+                    Jeg har lidenskap <span id="type-it" />
                   </p>
                   <p className="desc">
                     I design and develop services for customers of all sizes,
