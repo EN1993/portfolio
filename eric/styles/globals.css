@@ -132,3 +132,7 @@ iframe {
 .home-banner .hb-img img {
   border-radius: 50%;
 }
+
+.product {
+  border: 4px solid blue;
+}

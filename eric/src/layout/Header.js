@@ -75,19 +75,22 @@ const MenuWithOutBlog = () => {
       <li data-menuanchor="home" className="active">
         <a className="nav-link" href="#home">
           <i className="ti-home" />
-          <span>Home</span>
+          <span>Hjem</span>
+          {/* <span>Home</span> */}
         </a>
       </li>
       <li data-menuanchor="about">
         <a className="nav-link" href="#about">
           <i className="ti-id-badge" />
-          <span>About Me</span>
+          <span>Om Meg</span>
+          {/* <span>About Me</span> */}
         </a>
       </li>
       <li data-menuanchor="services">
         <a className="nav-link" href="#services">
           <i className="ti-panel" />
-          <span>Services</span>
+          <span>Servicer</span>
+          {/* <span>Services</span> */}
         </a>
       </li>
       <li data-menuanchor="work">
@@ -105,7 +108,8 @@ const MenuWithOutBlog = () => {
       <li data-menuanchor="contactus">
         <a className="nav-link" href="#contactus">
           <i className="ti-map-alt" />
-          <span>Contact Me</span>
+          <span>Kontakt Meg</span>
+          {/* <span>Contact Me</span> */}
         </a>
       </li>
     </ul>
@@ -126,7 +130,8 @@ const MenuWithBlog = () => {
           <Link href="/#home">
             <a className="nav-link">
               <i className="ti-home" />
-              <span>Home</span>
+              <span>Hjem</span>
+              {/* <span>Home</span> */}
             </a>
           </Link>
         </li>
@@ -134,7 +139,8 @@ const MenuWithBlog = () => {
           <Link href="/#about">
             <a className="nav-link">
               <i className="ti-id-badge" />
-              <span>About Me</span>
+              <span>Om Meg</span>
+              {/* <span>About Me</span> */}
             </a>
           </Link>
         </li>
@@ -142,7 +148,8 @@ const MenuWithBlog = () => {
           <Link href="/#services">
             <a className="nav-link">
               <i className="ti-panel" />
-              <span>Services</span>
+              <span>Servicer</span>
+              {/* <span>Services</span> */}
             </a>
           </Link>
         </li>
@@ -166,7 +173,8 @@ const MenuWithBlog = () => {
           <Link href="/#contactus">
             <a className="nav-link">
               <i className="ti-map-alt" />
-              <span>Contact Me</span>
+              <span>Kontakt Meg</span>
+              {/* <span>Contact Me</span> */}
             </a>
           </Link>
         </li>

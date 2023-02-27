@@ -85,7 +85,7 @@ const Portfolio = () => {
         {/* Portfolio Filter */}
         <div className="portfolio-content grid-gutter-lg grid-col-3 lightbox-gallery">
           <div className="grid-item  design ">
-            <div className="portfolio-box-01">
+            <div className="portfolio-box-01 product">
               <a
                 href="https://xd.adobe.com/view/f7e7c3ef-6dbb-4c16-aaca-b567401b3011-a2b4/"
                 className="gallery-link"
@@ -114,8 +114,8 @@ const Portfolio = () => {
             </div>
           </div>{" "}
           {/* grid item */}
-          <div className="grid-item utvikling">
-            <div className="portfolio-box-01">
+          <div className="grid-item utvikling ">
+            <div className="portfolio-box-01 product">
               <a
                 href="https://greatings.netlify.app/"
                 target="-blank"
@@ -173,28 +173,42 @@ const Portfolio = () => {
             </div>
           </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product utvikling">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Word Travel</h5>
-                <span>Utvikling 2</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-5.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-5.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
+          <div className="grid-item  utvikling">
+            <div className="portfolio-box-01 product">
+              <a
+                href="https://competent-bohr-d51278.netlify.app/index.html"
+                rel="opener"
+                target="-blank"
+              >
+                <div className="portfolio-info">
+                  <h5 className="white-color font-weight-bold">
+                    Word Travel Webside
+                  </h5>
+                  <span>Reising Blog</span>
                 </div>
-              </div>
+                <div className="portfolio-img">
+                  <img src="static/img/netlifywt.jpg" title="" alt="" />
+                  <div className="portfolio-icon">
+                    <a href="" className="gallery-link">
+                      <span className="ti-plus" />
+                    </a>
+                  </div>
+                  <button>
+                    <a
+                      href="https://github.com/Noroff-FEU-Assignments/project-exam-1-EN1993"
+                      target="-blank"
+                      rel="opener"
+                    >
+                      Git
+                    </a>
+                  </button>
+                </div>
+              </a>
             </div>
           </div>{" "}
           {/* grid item */}
-          <div className="grid-item design">
-            <div className="portfolio-box-01">
+          <div className="grid-item design ">
+            <div className="portfolio-box-01 product">
               <a
                 href="https://xd.adobe.com/view/15b68bbb-3576-45dc-bbb5-1694e08d7d2e-40e5/"
                 rel="opener"
@@ -221,7 +235,7 @@ const Portfolio = () => {
             </div>
           </div>{" "}
           {/* grid item */}
-          <div className="grid-item product utvikling">
+          {/* <div className="grid-item product utvikling">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
                 <h5 className="white-color font-weight-bold">Momb ios App</h5>
@@ -239,24 +253,37 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>{" "}
-          <div className="grid-item product utvikling">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App4</h5>
-                <span>Utvikling 4</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-6.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-6.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
+          </div>{" "} */}
+          <div className="grid-item utvikling">
+            <div className="portfolio-box-01 product ">
+              <a href="">
+                <div className="portfolio-info">
+                  <h5 className="white-color font-weight-bold">
+                    Community Science Museum Webside
+                  </h5>
+                  <span>Forskning Museum</span>
                 </div>
-              </div>
+                <div className="portfolio-img">
+                  <img src="static/img/netlifycs.jpg" title="" alt="" />
+                  <div className="portfolio-icon">
+                    <a
+                      href="static/img/m-portfolio-6.jpg"
+                      className="gallery-link"
+                    >
+                      <span className="ti-plus" />
+                    </a>
+                  </div>
+                  <button>
+                    <a
+                      href="https://github.com/EN1993/Website_Community-Science-Museum"
+                      target="-blank"
+                      rel="opener"
+                    >
+                      Git
+                    </a>
+                  </button>
+                </div>
+              </a>
             </div>
           </div>{" "}
           {/* grid item */}
@@ -280,8 +307,8 @@ const Portfolio = () => {
             </div>
           </div>{" "} */}
           {/* grid item */}
-          <div className="grid-item product design">
-            <div className="portfolio-box-01">
+          <div className="grid-item design">
+            <div className="portfolio-box-01  product">
               <a
                 href="https://xd.adobe.com/view/031afcdb-0828-44eb-990c-c677d566a854-5649/"
                 rel="opener"
