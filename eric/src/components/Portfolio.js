@@ -256,7 +256,7 @@ const Portfolio = () => {
           </div>{" "} */}
           <div className="grid-item utvikling">
             <div className="portfolio-box-01 product ">
-              <a href="">
+              <a href="https://pedantic-swartz-28b076.netlify.app/about.htm">
                 <div className="portfolio-info">
                   <h5 className="white-color font-weight-bold">
                     Community Science Museum Webside

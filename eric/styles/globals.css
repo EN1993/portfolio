@@ -12,6 +12,15 @@
   --swiper-theme-color: #007aff;
 }
 :root {
+  --secondary-color: #0c4329;
+  --secondary-background: white;
+  --primary-background: #0c4329;
+  /* --primary-background: #8bc34a; */
+  --primary-color: #8bc34a;
+  /* --primary-background: black; */
+  --third-color: #07247c;
+  /* --primary-color: #009688;  */
+  /* --third-color: #07247c; */
   --blue: #3700ff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -25,8 +34,11 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --white: white;
   --primary: #007bff;
   --secondary: #6c757d;
+  /* --primary: #007bff;
+  --secondary: #6c757d; */
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -134,5 +146,88 @@ iframe {
 }
 
 .product {
-  border: 4px solid blue;
+  border: 4px solid var(--third-color);
+}
+
+.pp-section {
+  background: var(--primary-background);
+}
+
+.home-banner:after {
+  background: var(--primary-color);
+}
+
+.px-btn.px-btn-theme {
+  background: var(--third-color);
+  color: #fff;
+  box-shadow: 4px 4px #fff;
+}
+.px-btn {
+  border: 1px solid var(--third-color);
+}
+.px-btn.px-btn-theme:hover {
+  background: var(--white);
+  color: var(--third-color);
+  box-shadow: 4px 4px var(--third-color);
+}
+.px-btn:hover {
+  border: 1px solid var(--third-color);
+}
+.feature-box-01,
+.contact-form,
+.contact-info {
+  background: var(--primary-color);
+}
+
+.feature-box-01:hover {
+  background: var(--third-color);
+}
+
+.title h3:after,
+.title h3:before {
+  background: var(--primary-color);
+}
+.skill-lt .skill-bar .skill-bar-in,
+.skill-lt span,
+.aducation-box {
+  background: var(--primary-color);
+}
+.aducation-box span {
+  background: var(--third-color);
+}
+
+.header-left {
+  background: var(--primary-color);
+}
+
+.header-left .nav-menu li.active a {
+  color: var(--third-color);
+}
+.header-left .hl-top:after {
+  background: var(--primary-background);
+}
+
+.theme-light .header-left .nav-menu li .nav-link:hover,
+.theme-light .header-left .nav-menu li.active a,
+.header-left .nav-menu li .nav-link:hover {
+  color: var(--third-color);
+}
+.theme-light .px-btn.px-btn-theme:hover {
+  box-shadow: none;
+}
+.portfolio-box-01 .portfolio-info {
+  background: var(--primary-color);
+}
+
+.portfolio-box-01 .portfolio-icon a {
+  background: var(--third-color);
+}
+.contact-info li i {
+  color: var(--third-color);
+}
+.theme-light .color_switch {
+  background: var(--primary-background);
+}
+.color_switch {
+  color: var(--primary-background);
 }
