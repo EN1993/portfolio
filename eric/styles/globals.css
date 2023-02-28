@@ -231,3 +231,13 @@ iframe {
 .color_switch {
   color: var(--primary-background);
 }
+#loading {
+  background: var(--primary-background);
+}
+.mob-header {
+  background: var(--primary-background);
+}
+
+.toggler-menu {
+  background: var(--primary-color);
+}
