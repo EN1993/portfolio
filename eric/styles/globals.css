@@ -14,12 +14,13 @@
 :root {
   --secondary-color: #0c4329;
   --secondary-background: white;
-  --primary-background: #0c4329;
+  /* --primary-background: #0c4329; */
   /* --primary-background: #8bc34a; */
-  --primary-color: #8bc34a;
-  /* --primary-background: black; */
+  /* --primary-color: #8bc34a; */
+  --primary-background: #010101d9;
   --third-color: #07247c;
-  /* --primary-color: #009688;  */
+  /* --primary-color: #009688; */
+  --primary-color: #00bcd4;
   /* --third-color: #07247c; */
   --blue: #3700ff;
   --indigo: #6610f2;
@@ -240,4 +241,10 @@ iframe {
 
 .toggler-menu {
   background: var(--primary-color);
+}
+
+@media (min-width: 992px) {
+  .about-me .img img {
+    max-width: -webkit-fill-available;
+  }
 }
