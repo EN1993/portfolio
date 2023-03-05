@@ -58,11 +58,11 @@ const About = () => {
                   </div>
                 </div> commented of 15.02.2023 */}
                 <div className="btn-bar">
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#contactus">
                     {/* <span>Contact Me</span> commented of 15.02.2023 */}
                     <span>Kontakt Meg</span>
                   </a>
-                  <a className="px-btn px-btn-theme" href="#">
+                  <a className="px-btn px-btn-theme" href="#work">
                     {/* <span>Portfolio</span>  commented of 15.02.2023 */}
                     <span>Portfolio</span>
                   </a>

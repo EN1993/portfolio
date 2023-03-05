@@ -139,7 +139,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                  <button>
+                  <span className="git-cta">
                     <a
                       href=" https://github.com/Noroff-FEU-Assignments/project-exam-2-en1993"
                       target="-blank"
@@ -147,7 +147,7 @@ const Portfolio = () => {
                     >
                       Git
                     </a>
-                  </button>
+                  </span>
                 </div>
               </a>
             </div>
@@ -193,7 +193,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                  <button>
+                  <span className="git-cta">
                     <a
                       href="https://github.com/Noroff-FEU-Assignments/project-exam-1-EN1993"
                       target="-blank"
@@ -201,7 +201,7 @@ const Portfolio = () => {
                     >
                       Git
                     </a>
-                  </button>
+                  </span>
                 </div>
               </a>
             </div>
@@ -273,7 +273,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                  <button>
+                  <span className="git-cta">
                     <a
                       href="https://github.com/EN1993/Website_Community-Science-Museum"
                       target="-blank"
@@ -281,7 +281,7 @@ const Portfolio = () => {
                     >
                       Git
                     </a>
-                  </button>
+                  </span>
                 </div>
               </a>
             </div>

@@ -196,9 +196,15 @@ const Contact = () => {
           <div className="col-12">
             <div className="google-map">
               <div className="embed-responsive embed-responsive-21by9">
-                <iframe
+                {/* <iframe
                   className="embed-responsive-item"
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
+                  // src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3151.840107317064!2d144.955925!3d-37.817214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1520156366883"
+                  allowFullScreen=""
+                /> */}
+                <iframe
+                  className="embed-responsive-item"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128083.6432232609!2d10.785116499999999!3d59.89385494999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2sOslo!5e0!3m2!1sen!2sno!4v1677860552538!5m2!1sen!2sno"
                   allowFullScreen=""
                 />
               </div>

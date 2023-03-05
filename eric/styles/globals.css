@@ -20,7 +20,7 @@
   --primary-background: #010101d9;
   --third-color: #07247c;
   /* --primary-color: #009688; */
-  --primary-color: #00bcd4;
+  --primary-color: #2e5471;
   /* --third-color: #07247c; */
   --blue: #3700ff;
   --indigo: #6610f2;
@@ -205,7 +205,7 @@ iframe {
   color: var(--third-color);
 }
 .header-left .hl-top:after {
-  background: var(--primary-background);
+  background: none;
 }
 
 .theme-light .header-left .nav-menu li .nav-link:hover,
@@ -247,4 +247,34 @@ iframe {
   .about-me .img img {
     max-width: -webkit-fill-available;
   }
+}
+
+.google-map .embed-responsive-21by9 {
+  filter: contrast(3);
+  -webkit-filter: grayscale(4);
+}
+
+span.git-cta a {
+  font-family: "themify";
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: var(--third-color);
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  bottom: 20px;
+}
+/* .theme-light .home-banner:after {
+  background: var(--primary-color);
+} */
+.theme-light .home-banner:after,
+.theme-light .header-left,
+.theme-light .aducation-box,
+.theme-light .feature-box-01,
+.theme-light .contact-info,
+.theme-light .contact-form {
+  background: #e3e3e4;
 }
