@@ -39,7 +39,11 @@ const Index = () => {
                     utvikler.
                   </p>
                   <div className="btn-bar">
-                    <a className="px-btn px-btn-theme" href="#">
+                    <a
+                      className="px-btn px-btn-theme"
+                      href="/assets/pdf/EricCV.pdf"
+                      download
+                    >
                       Donwload CV
                     </a>
                   </div>
