@@ -23,8 +23,9 @@ const Services = () => {
               <div className="feature-content media-body">
                 <h5>Web Design</h5>
                 <p>
-                  Jeg har udanning på hvordan det å designe nettside, 
-                  og ved å anvende riktige verktøy med fokus på bruker vennlig.
+                  Gjennom udanning har lærte hvordan mann designer nettside, og
+                  ved å anvende XD(Xperience Design) med fokus på bruker
+                  vennlig.
                 </p>
               </div>
             </div>
@@ -36,8 +37,8 @@ const Services = () => {
                 {/* <h5>Web Development</h5>  commented of 15.02.2023 */}
                 <h5>Web Utvikling</h5>
                 <p>
-                  Kan gå god på å utvikle de flest nettsider 
-                  med god arkitektur resultat.
+                  Kan kode og utvikle de fleste nettsider responsivt med god
+                  arkitektonisk resultater.
                 </p>
               </div>
             </div>

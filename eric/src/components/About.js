@@ -27,8 +27,8 @@ const About = () => {
                   {/* {`I'm`} a Freelancer Front-end Developer with over 3 years of
                   experience.{" "} commented of 15.02.2023*/}
                   {`Jeg er`} en aktiv og engasjert mann på 29 år som har nylig
-                  utdannet seg som front-end utvikler på Noroff fagskole. Jeg
-                  liker å være med venner å bli kjente med nye mennesker er og
+                  utdannet meg som front-end utvikler på Noroff fagskole. Jeg
+                  liker å være med venner å bli kjente med nye mennesker og er
                   sporty{" "}
                 </h3>
                 {/* <p>
@@ -59,10 +59,12 @@ const About = () => {
                 </div> commented of 15.02.2023 */}
                 <div className="btn-bar">
                   <a className="px-btn px-btn-theme" href="#contactus">
+                    {/* <a className="px-btn px-btn-theme" href="#contactus"> */}
                     {/* <span>Contact Me</span> commented of 15.02.2023 */}
                     <span>Kontakt Meg</span>
                   </a>
                   <a className="px-btn px-btn-theme" href="#work">
+                    {/* <a className="px-btn px-btn-theme" href="#work"> */}
                     {/* <span>Portfolio</span>  commented of 15.02.2023 */}
                     <span>Portfolio</span>
                   </a>
@@ -108,7 +110,7 @@ const About = () => {
                 {`Jeg`} Jeg har erfaringer som Front-end utvikler gjennom
                 fagskole utdanning på to år. Jeg har lærte blant annet å kode
                 responsivt websider. Jeg interesser meg for nye utfordinger, som
-                fører nye erfaringer.
+                fører til nye erfaringer.
               </p>
               <div className="skill-lt">
                 <h6>React</h6>

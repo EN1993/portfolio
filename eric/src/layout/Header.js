@@ -74,6 +74,7 @@ const MenuWithOutBlog = () => {
     <ul className="nav nav-menu" id="pp-menu">
       <li data-menuanchor="home" className="active">
         <a className="nav-link" href="#home">
+          {/* <a className="nav-link" href="#home"> */}
           <i className="ti-home" />
           <span>Hjem</span>
           {/* <span>Home</span> */}
