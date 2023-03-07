@@ -1,6 +1,14 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/blog": "pages/blog.html",
+  "/index-glitch": "pages/index-glitch.html",
+  "/demo": "pages/demo.html",
+  "/single-blog": "pages/single-blog.html",
+  "/index-video": "pages/index-video.html",
+  "/index-particles": "pages/index-particles.html",
+  "/": "pages/index.html",
+  "/api/hello": "pages/api/hello.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
