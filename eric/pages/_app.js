@@ -16,8 +16,11 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>E.N Portfolio </title>
         {/* <!-- Favicon --> */}
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.jpg" />
+
+        {/* <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /> */}
         {/* <!-- plugin CSS --> */}
         <link
           href="static/plugin/bootstrap/css/bootstrap.min.css"
