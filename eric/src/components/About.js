@@ -10,9 +10,9 @@ const About = () => {
           <div className="col-lg-6 m-15px-tb">
             <div className="about-me">
               <div className="img">
-                <div className="img-in">
+                <picture className="img-in">
                   <img src="static/img/erickites.png" title="" alt="" />
-                </div>
+                </picture>
               </div>
             </div>
           </div>

@@ -50,9 +50,9 @@ const Index = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="hb-img">
+                <picture className="hb-img">
                   <img src="static/img/home-banner.png" title="" alt="" />
-                </div>
+                </picture>
               </div>
             </div>
           </div>
