@@ -37,9 +37,9 @@ const Header = ({ blog }) => {
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
-              <div className="img">
+              <picture className="img">
                 <img src="static/img/about-me.jpg" title="" alt="" />
-              </div>
+              </picture>
               <h5>Eric</h5>
               <h5>Nduwimana</h5>
             </div>

@@ -97,7 +97,7 @@ const Portfolio = () => {
                   </h5>
                   <span>B & Bs Hotel</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/m-portfolio-1.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a
@@ -109,7 +109,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
@@ -127,7 +127,7 @@ const Portfolio = () => {
                   </h5>
                   <span>B & Bs Hotel</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/holidazeW.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a
@@ -148,7 +148,7 @@ const Portfolio = () => {
                       Git
                     </a>
                   </span>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
@@ -186,7 +186,7 @@ const Portfolio = () => {
                   </h5>
                   <span>Reising Blog</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/netlifywt.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a href="" className="gallery-link">
@@ -202,7 +202,7 @@ const Portfolio = () => {
                       Git
                     </a>
                   </span>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
@@ -218,7 +218,7 @@ const Portfolio = () => {
                   <h5 className="white-color font-weight-bold">Word Travel</h5>
                   <span>Reising Blog</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/wtD.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a
@@ -230,7 +230,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
@@ -263,7 +263,7 @@ const Portfolio = () => {
                   </h5>
                   <span>Forskning Museum</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/netlifycs.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a
@@ -282,7 +282,7 @@ const Portfolio = () => {
                       Git
                     </a>
                   </span>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
@@ -320,7 +320,7 @@ const Portfolio = () => {
                   </h5>
                   <span>Forskinings Museum</span>
                 </div>
-                <div className="portfolio-img">
+                <picture className="portfolio-img">
                   <img src="static/img/csD.jpg" title="" alt="" />
                   <div className="portfolio-icon">
                     <a
@@ -332,7 +332,7 @@ const Portfolio = () => {
                       <span className="ti-plus" />
                     </a>
                   </div>
-                </div>
+                </picture>
               </a>
             </div>
           </div>{" "}
