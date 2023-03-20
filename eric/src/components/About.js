@@ -28,7 +28,7 @@ const About = () => {
                   experience.{" "} commented of 15.02.2023*/}
                   {`Jeg er`} en aktiv og engasjert mann på 29 år som har nylig
                   utdannet meg som front-end utvikler på Noroff fagskole. Jeg
-                  liker å være med venner å bli kjente med nye mennesker og er
+                  liker å være med venner og bli kjente med nye mennesker og er
                   sporty{" "}
                 </h3>
                 {/* <p>
@@ -107,7 +107,7 @@ const About = () => {
                 experience. I code and create web elements for amazing people
                 around the world. I like work with new people. New people new
                 Experiences. */}
-                {`Jeg`} Jeg har erfaringer som Front-end utvikler gjennom
+                {`Jeg`} har erfaringer som Front-end utvikler gjennom
                 fagskole utdanning på to år. Jeg har lærte blant annet å kode
                 responsivt websider. Jeg interesser meg for nye utfordinger, som
                 fører til nye erfaringer.
