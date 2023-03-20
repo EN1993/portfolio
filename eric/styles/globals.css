@@ -296,3 +296,7 @@ span.git-cta a {
 .portfolio-filter-01 .filter li:after {
   background: var(--primary-color);
 }
+
+/* .portfolio-box-01 .portfolio-img {
+  position: none;
+} */

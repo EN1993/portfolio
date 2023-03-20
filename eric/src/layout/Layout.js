@@ -10,7 +10,8 @@ const Layout = ({ children, blog }) => {
       {/* page loading */}
       {/* End */}
       {/* Header Start */}
-      <Header blog={blog} />
+      <Header />
+      {/* <Header blog={blog} /> */}
       {/* Main Start */}
       <main className="main-left pp-main-section">{children}</main>
       <DayNightMood />

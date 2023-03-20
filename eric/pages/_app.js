@@ -3,7 +3,7 @@ import { Fragment, useEffect, useState } from "react";
 import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
-// import linkedStyles from "./linkedStyles";
+// import linkedStyles from "../src/components/linkedStyles";
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
   useEffect(() => {
@@ -17,12 +17,12 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>E.N Portfolio </title>
         {/* <!-- Favicon --> */}
-        {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        {/* <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />*/}
 
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.jpg" /> */}
-
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        {/* <linkedStyles /> */}
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.jpg" />
         {/* <!-- plugin CSS --> */}
+
         <>
           <link
             href="static/plugin/bootstrap/css/bootstrap.min.css"
@@ -50,6 +50,7 @@ function MyApp({ Component, pageProps }) {
             rel="stylesheet"
           />
           {/* <!-- theme css --> */}
+
           <link href="static/css/style.css" rel="stylesheet" />
 
           <link
@@ -61,7 +62,6 @@ function MyApp({ Component, pageProps }) {
             rel="stylesheet"
           />
         </>
-        {/* <linkedStyles/> */}
       </Head>
       {load && <PreLoader />}
       <Component {...pageProps} />
